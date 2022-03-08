@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(ProgrammingContests C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(ProgrammingContests c_programming/21_09_03_introduction.c c_programming/21_09_14_conditions.c c_programming/21_09_24_cycles.c algorithms/21_09_17_sortings.c c_programming/21_10_01_arrays.c algorithms/21_10_4_numbers.c c_programming/21_10_08dynamic.c c_programming/001_tic_tac_toe.c algorithms/21_10_25_searches_sorts.c c_programming/21_10_25_matrices.c c_programming/002_sea_batle.c c_programming/003_chess.c c_programming/21_11_08_game_of_life.c algorithms/21_11_14_data_structures.c c_programming/21_11_15_strings.c algorithms/additional_tasks.c algorithms/21_11_29_dynamic_greedy_dnc.c c_programming/21_11_22_strings_2.c c_programming/21_11_29_files.c c_programming/21_12_06_ball.c algorithms/21_12_10_graphs.c c_programming/22_01_12_structures.c c_programming/22_01_19_buses.c)
